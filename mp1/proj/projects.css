@@ -4,7 +4,7 @@
 } 
 
 #page-wrapper{
-    width: 80vm; 
+    width: 97vw;
     background-color:rgb(230, 236, 235); 
     margin: auto; 
 } 
@@ -14,8 +14,26 @@
     flex-direction: row; 
 } 
 
+.project{
+    margin-top: 1.6%; 
+} 
+
+h1{
+    font-size: calc(2px + 5vh); 
+}
+
 h2 {
+    font-size: calc(2px + 4vh); 
     color: rgb(214, 81, 19); 
+} 
+
+h3{
+    font-size: calc(2px + 2.3vh); 
+}
+
+p{
+    font-size: calc(2px + 1.9vh); 
+    margin-top: 0.6%;
 } 
 
 header, footer{
@@ -59,10 +77,10 @@ nav a{
 }
 
 main{
-    height: 170vh;
+    height: 230vh;
     width: 70%;
     margin: auto; 
-    padding-top: 10%; 
+    padding-top: 4%; 
 }
 
 main img{
@@ -75,12 +93,29 @@ main img{
         flex-direction: column;
     }
 
-    main,nav{
+    nav{
         width: 100%;
     } 
 
-    nav ul{
-        flex-direction: row;
+    main{
+        height: 280vh; 
+        width: 100%;
     }
 
-}
+    nav ul{
+        flex-direction: row;
+    } 
+
+    header {
+        text-align: center; 
+    } 
+
+} 
+
+
+
+
+/* the calculator */ 
+#negative {
+    color: red;
+} 
