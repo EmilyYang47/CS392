@@ -132,16 +132,20 @@
 
 
                     <!-- The calculator --> 
-                    <label for="one"><p>Give me a number: </p></label><input id="one"> 
-                    <label for="two"><p>Give me a number: </p></label><input id="two"> 
-                    <br>
-                    <button onclick="doAdd()">+</button> 
-                    <button onclick="doSubtract()">-</button>
-                    <button onclick="doMultiply()">*</button>
-                    <button onclick="doDivide()">/</button>
-                    <button onclick="doPower()">**</button> 
-                    <button onclick="doClear()">Clear</button>
-                    <div id="output"></div>
+                    <div id="calculator"> 
+                        <h3> Javascript Calculator </h3> 
+                        <br>
+                        <label for="one"><p>Give me a number: </p></label><input id="one"> 
+                        <label for="two"><p>Give me a number: </p></label><input id="two"> 
+                        <br>
+                        <button onclick="doAdd()"><h5>+</h5></button> 
+                        <button onclick="doSubtract()"><h5>-</h5></button>
+                        <button onclick="doMultiply()"><h5>*</h5></button>
+                        <button onclick="doDivide()"><h5>/</h5></button>
+                        <button onclick="doPower()"><h5>**</h5></button> 
+                        <div id="output"></div> 
+                        <button onclick="doClear()"><h5>Clear</h5></button>
+                    </div>
                     
 
                 </main> 

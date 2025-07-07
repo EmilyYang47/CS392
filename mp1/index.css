@@ -84,7 +84,9 @@ main{
 }
 
 main img{
-    max-width: 80%;
+    max-width: 30%; 
+    display: block; 
+    margin: auto; 
 } 
 
 @media  screen and (max-width: 1000px){

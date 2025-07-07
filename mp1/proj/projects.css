@@ -77,7 +77,7 @@ nav a{
 }
 
 main{
-    height: 230vh;
+    height: 270vh;
     width: 70%;
     margin: auto; 
     padding-top: 4%; 
@@ -98,7 +98,7 @@ main img{
     } 
 
     main{
-        height: 280vh; 
+        height: 300vh; 
         width: 100%;
     }
 
@@ -113,9 +113,70 @@ main img{
 } 
 
 
-
-
 /* the calculator */ 
 #negative {
     color: red;
+} 
+
+#calculator {
+    background-color: rgb(249, 220, 219); 
+    width: 37%;
+    border-radius: 3vw; 
+    margin:7% auto; 
+    padding: 1.5%; 
+    text-align: center;
+    /* creates a shadow of this object: 
+    first parameter is the horizontal location from object, 
+    second parameter is vertical location from object, 
+    third parameter is the blur, 
+    fourth parameter is the color of shadow. 
+    Source: https://www.w3schools.com/css/css3_shadows_box.asp */
+    box-shadow:0.5vw 0.5vw 0.5vw #999; 
+} 
+
+#calculator input{
+    width: 57%; 
+} 
+
+#calculator button{
+    text-align: center;
+    margin: 5% auto;
+    width: 17%; 
+    background-color:rgb(228, 136, 93); 
+    border-radius: 10vw; 
+    padding: 2%;
+
+    /* change curser to pointer when it is placed on the button. 
+    Resource: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+    cursor: pointer;
+    box-shadow: 0.1vw 0.1vw 0.1vw #999;
+} 
+
+/* change color of button to rgb(245, 111, 49) when the cursor hovers on the button. 
+    Resource: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+#calculator button:hover {
+    background-color: rgb(245, 111, 49); 
+}
+
+/* change color of button to rgb(245, 111, 49) and move the button 0.3vh downward when the button is being clicked. 
+    Resource: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+#calculator button:active {
+  background-color: rgb(245, 111, 49);
+  transform: translateY(0.3vh);
+}
+
+#output { 
+    height: 5%; 
+    background: rgb(251, 252, 253);     
+    padding: 4.5%;
+} 
+
+#calculator button h5{
+    font-size: calc(2px + 1.3vh); 
+    font-weight: normal; 
+} 
+
+#calculator h3 {
+    color: rgb(230, 81, 12); 
+    font-size: calc(2px + 3.2vh); 
 } 
